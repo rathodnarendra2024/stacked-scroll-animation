@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stacked Services Scroll</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="h-screen flex items-center justify-center">Start</div>
+    <div id="services"
+        class="h-screen bg-[radial-gradient(circle_at_top_right,_#439539,_#D9EAD7)] block md:flex items-start justify-between pt-[50px] pb-[120px] px-[40px]">
+        <div class="md:w-1/3 w-full relative">
+            <h1 class="text-[#29333A] font-light text-[36px] md:text-[56px] leading-[40px] md:leading-[60px]">Our
+                Services</h1>
+            <p
+                class="text-[16px] md:text-[20px] leading-[28px] md:leading-[32px] font-light text-[#586670] mt-[10px] md:mt-[24px]">
+                We provide integrated
+                healthcare
+                services under a
+                single provider to the healthcare category</p>
+            <div class="w-full flex justify-start mt-[25px] md:mt-[40px]">
+                <a href="#"
+                    class="bg-[#00262E] text-white font-medium text-[16px] leading-[24px] py-3 md:py-5 px-9 rounded-full transition-all duration-300 border border-[#00262E] hover:bg-white hover:text-[#00262E] ">Find
+                    a
+                    Service</a>
+                <a href="#"
+                    class="bg-white text-[#00262E] md:w-[64px] w-[50px] h-[50px] md:h-[64px] leading-[50px] md:leading-[64px] text-center rounded-full ml-[12px] transition-all duration-300 hover:bg-[#00262E] hover:text-white"><i
+                        class="fa fa-arrow-down"></i></a>
+            </div>
+            <!-- Vertical Progress Bar -->
+            <div
+                class="absolute left-0 top-[230px] md:top-[300px] w-full h-[4px] md:w-[4px] md:h-full bg-white rounded-sm">
+                <div
+                    class="progress-fill w-0 h-full md:w-full md:h-0 bg-[#455560] rounded-sm transition-[height] duration-[100ms] ease-linear">
+                </div>
+            </div>
+        </div>
+        <div class="services-rights md:w-2/3 mt-[75px] md:mt-0 w-full relative">
+            <div
+                class="service-card absolute w-full top-0 left-0 height-auto bg-white shadow-[0_4px_0_0_rgba(0,0,0,0.05)]">
+                <img src="./assets/images/service-1.png" alt="" class="w-full h-[280px]">
+                <div class="pt-[30px] pb-[30px] px-[40px] relative">
+                    <img src="./assets/images/aged-care-logo.webp" width="76" height="76" alt=""
+                        class="absolute -top-[30px] rounded-full">
+                    <h3
+                        class="text-[24px] md:text-[36px] leading-[30px] md:leading-[40px] font-normal text-[#29333A] mt-[24px]">
+                        Aged Care</h3>
+                    <div class="w-full flex justify-between mt-[16px]">
+                        <div class="w-7/10">
+                            <p
+                                class="text-[14px] md:text-[18px] leading-[20px] md:leading-[28px] font-light text-[#586670]">
+                                This is the short
+                                description
+                                text that runs
+                                over two lines like this lorem ipsum dolor sit
+                                amet. Maecenas lobortis elementum mauris.</p>
+                        </div>
+                        <div class="w-3/10 flex aligns-center justify-end">
+                            <a href="#"
+                                class="block bg-[#00262E] text-white w-[50px] h-[50px] leading-[50px] md:w-[64px] md:h-[64px] md:leading-[64px] text-center rounded-full ml-10 border border-[#00262E] transition-all duration-300 hover:bg-white hover:text-[#00262E]"><i
+                                    class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="service-card absolute w-full top-0 left-0 height-auto bg-white shadow-[0_4px_0_0_rgba(0,0,0,0.05)]">
+                <img src="./assets/images/service-2.png" alt="" class="w-full h-[280px]">
+                <div class="pt-[30px] pb-[30px] px-[40px] relative">
+                    <img src="./assets/images/aged-care-logo.webp" width="76" height="76" alt=""
+                        class="absolute -top-[30px] rounded-full">
+                    <h3 class="text-[24px] md:text-[36px] leading-[30px] font-normal text-[#29333A] mt-[24px]">Medical
+                        Centers</h3>
+                    <div class="w-full flex justify-between mt-[16px]">
+                        <div class="w-7/10">
+                            <p
+                                class="text-[14px] md:text-[18px] leading-[20px] md:leading-[28px] font-light text-[#586670]">
+                                This is the short
+                                description
+                                text that runs
+                                over two lines like this lorem ipsum dolor sit
+                                amet. Maecenas lobortis elementum mauris.</p>
+                        </div>
+                        <div class="w-3/10 flex aligns-center justify-end">
+                            <a href="#"
+                                class="block bg-[#00262E] text-white w-[50px] h-[50px] leading-[50px] md:w-[64px] md:h-[64px] md:leading-[64px] text-center rounded-full ml-10 border border-[#00262E] transition-all duration-300 hover:bg-white hover:text-[#00262E]"><i
+                                    class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="service-card absolute w-full top-0 left-0 height-auto bg-white shadow-[0_4px_0_0_rgba(0,0,0,0.05)]">
+                <img src="./assets/images/service-3.png" alt="" class="w-full h-[280px]">
+                <div class="pt-[30px] pb-[30px] px-[40px] relative">
+                    <img src="./assets/images/aged-care-logo.webp" width="76" height="76" alt=""
+                        class="absolute -top-[30px] rounded-full">
+                    <h3 class="text-[24px] md:text-[36px] leading-[30px] font-normal text-[#29333A] mt-[24px]">Health
+                        Club</h3>
+                    <div class="w-full flex justify-between mt-[16px]">
+                        <div class="w-7/10">
+                            <p
+                                class="text-[14px] md:text-[18px] leading-[20px] md:leading-[28px] font-light text-[#586670]">
+                                This is the short
+                                description
+                                text that runs
+                                over two lines like this lorem ipsum dolor sit
+                                amet. Maecenas lobortis elementum mauris.</p>
+                        </div>
+                        <div class="w-3/10 flex aligns-center justify-end">
+                            <a href="#"
+                                class="block bg-[#00262E] text-white w-[50px] h-[50px] leading-[50px] md:w-[64px] md:h-[64px] md:leading-[64px] text-center rounded-full ml-10 border border-[#00262E] transition-all duration-300 hover:bg-white hover:text-[#00262E]"><i
+                                    class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="service-card absolute w-full top-0 left-0 height-auto bg-white shadow-[0_4px_0_0_rgba(0,0,0,0.05)]">
+                <img src="./assets/images/service-4.png" alt="" class="w-full h-[280px]">
+                <div class="pt-[30px] pb-[30px] px-[40px] relative">
+                    <img src="./assets/images/aged-care-logo.webp" width="76" height="76" alt=""
+                        class="absolute -top-[30px] rounded-full">
+                    <h3 class="text-[24px] md:text-[36px] leading-[30px] font-normal text-[#29333A] mt-[24px]">Early
+                        Learning</h3>
+                    <div class="w-full flex justify-between mt-[16px]">
+                        <div class="w-7/10">
+                            <p
+                                class="text-[14px] md:text-[18px] leading-[20px] md:leading-[28px] font-light text-[#586670]">
+                                This is the short
+                                description
+                                text that runs
+                                over two lines like this lorem ipsum dolor sit
+                                amet. Maecenas lobortis elementum mauris.</p>
+                        </div>
+                        <div class="w-3/10 flex aligns-center justify-end">
+                            <a href="#"
+                                class="block bg-[#00262E] text-white w-[50px] h-[50px] leading-[50px] md:w-[64px] md:h-[64px] md:leading-[64px] text-center rounded-full ml-10 border border-[#00262E] transition-all duration-300 hover:bg-white hover:text-[#00262E]"><i
+                                    class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="service-card absolute w-full top-0 left-0 height-auto bg-white shadow-[0_4px_0_0_rgba(0,0,0,0.05)]">
+                <img src="./assets/images/service-5.png" alt="" class="w-full h-[280px]">
+                <div class="pt-[30px] pb-[30px] px-[40px] relative">
+                    <img src="./assets/images/aged-care-logo.webp" width="76" height="76" alt=""
+                        class="absolute -top-[30px] rounded-full">
+                    <h3 class="text-[24px] md:text-[36px] leading-[30px] font-normal text-[#29333A] mt-[24px]">Training
+                    </h3>
+                    <div class="w-full flex justify-between mt-[16px]">
+                        <div class="w-7/10">
+                            <p
+                                class="text-[14px] md:text-[18px] leading-[20px] md:leading-[28px] font-light text-[#586670]">
+                                This is the short
+                                description
+                                text that runs
+                                over two lines like this lorem ipsum dolor sit
+                                amet. Maecenas lobortis elementum mauris.</p>
+                        </div>
+                        <div class="w-3/10 flex aligns-center justify-end">
+                            <a href="#"
+                                class="block bg-[#00262E] text-white w-[50px] h-[50px] leading-[50px] md:w-[64px] md:h-[64px] md:leading-[64px] text-center rounded-full ml-10 border border-[#00262E] transition-all duration-300 hover:bg-white hover:text-[#00262E]"><i
+                                    class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="service-card absolute w-full top-0 left-0 height-auto bg-white shadow-[0_4px_0_0_rgba(0,0,0,0.05)]">
+                <img src="./assets/images/service-6.png" alt="" class="w-full h-[280px]">
+                <div class="pt-[30px] pb-[30px] px-[40px] relative">
+                    <img src="./assets/images/aged-care-logo.webp" width="76" height="76" alt=""
+                        class="absolute -top-[30px] rounded-full">
+                    <h3 class="text-[24px] md:text-[36px] leading-[30px] font-normal text-[#29333A] mt-[24px]">Supplies
+                    </h3>
+                    <div class="w-full flex justify-between mt-[16px]">
+                        <div class="w-7/10">
+                            <p
+                                class="text-[14px] md:text-[18px] leading-[20px] md:leading-[28px] font-light text-[#586670]">
+                                This is the short
+                                description
+                                text that runs
+                                over two lines like this lorem ipsum dolor sit
+                                amet. Maecenas lobortis elementum mauris.</p>
+                        </div>
+                        <div class="w-3/10 flex aligns-center justify-end">
+                            <a href="#"
+                                class="block bg-[#00262E] text-white w-[50px] h-[50px] leading-[50px] md:w-[64px] md:h-[64px] md:leading-[64px] text-center rounded-full ml-10 border border-[#00262E] transition-all duration-300 hover:bg-white hover:text-[#00262E]"><i
+                                    class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services-spacer"></div>
+    <div class="h-screen flex items-center justify-center">End</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
