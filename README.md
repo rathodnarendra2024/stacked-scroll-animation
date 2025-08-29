@@ -14,5 +14,3 @@ Built with **GSAP** and **ScrollTrigger**, this project demonstrates layered sta
 - Fully responsive (desktop focus)
 
 ---
-
-## Project Structure
